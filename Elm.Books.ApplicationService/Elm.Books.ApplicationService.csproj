@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Elm.Books.Domain\Elm.Books.Domain.csproj" />
+    <ProjectReference Include="..\Elm.Books.Infrastructure\Elm.Books.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
